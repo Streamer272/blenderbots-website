@@ -6,7 +6,7 @@
         </router-link>
         <router-link to="/club" class="link">Club</router-link>
         <router-link to="/competitions" class="link">Competitions</router-link>
-        <router-link to="/discord" class="link">Discord</router-link>
+        <router-link to="/contact" class="link">Contact us</router-link>
     </div>
 </template>
 
