@@ -8,6 +8,8 @@
 </template>
 
 <style lang="scss" scoped>
+@import "@/assets/scss/global.scss";
+
 .title-section {
     display: flex;
     align-items: center;
@@ -19,7 +21,6 @@
 
     .logo {
         width: 24rem;
-        height: 24rem;
     }
 }
 </style>

@@ -11,16 +11,16 @@
 </template>
 
 <style lang="scss" scoped>
-$transition: 250ms ease-in-out;
+@import "assets/scss/global.scss";
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: .25rem .5rem;
+    margin: 0;
     padding: 0;
     height: 4rem;
-    background-color: white;
+    background-color: $white;
 
     .link {
         display: flex;
@@ -37,7 +37,7 @@ $transition: 250ms ease-in-out;
 
         &:hover {
             transform: scale(1.05);
-            color: #ffb703;
+            color: $yellow;
         }
 
         &.important {
@@ -47,14 +47,9 @@ $transition: 250ms ease-in-out;
 
         .logo {
             width: 3rem;
-            height: 3rem;
             margin: 0;
             padding: 0;
         }
     }
 }
 </style>
-
-<script lang="ts" setup>
-
-</script>

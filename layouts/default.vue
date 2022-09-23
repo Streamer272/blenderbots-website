@@ -18,7 +18,3 @@ body {
     height: 100vh;
 }
 </style>
-
-<script lang="ts" setup>
-
-</script>
