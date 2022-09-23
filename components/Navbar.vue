@@ -11,7 +11,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import "assets/scss/global.scss";
+@import "../assets/scss/colors";
 
 .navbar {
     display: flex;

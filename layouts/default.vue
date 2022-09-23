@@ -4,7 +4,7 @@
 </template>
 
 <style lang="scss">
-@import "assets/scss/global.scss";
+@import "../assets/scss/colors";
 
 body {
     margin: 0;
