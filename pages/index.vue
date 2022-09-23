@@ -1,26 +1,29 @@
 <template>
     <div>
-        <button class="count-button" v-on:click="count++">You clicked me <span class="count">{{ count }}</span> times</button>
+        <section class="title-section">
+            <h1 class="title">Blender Bots</h1>
+            <img src="/logo.png" alt="Blender Bots Logo" class="logo" />
+        </section>
     </div>
 </template>
 
 <style lang="scss" scoped>
-.count-button {
-    color: #eeeeee;
-    background-color: #ff2400;
-    border: none;
-    border-radius: .5rem;
-    font-size: 1.25rem;
-    margin: 0;
-    padding: .25rem .3rem;
-    cursor: pointer;
+.title-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-    .count {
-        color: gold;
+    .title {
+        font-size: 3.5rem;
+    }
+
+    .logo {
+        width: 24rem;
+        height: 24rem;
     }
 }
 </style>
 
 <script lang="ts" setup>
-const count = ref(0);
+
 </script>
