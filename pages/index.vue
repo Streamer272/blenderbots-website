@@ -8,7 +8,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import "@/assets/scss/global.scss";
+@import "assets/scss/global.scss";
 
 .title-section {
     display: flex;

@@ -1,18 +1,24 @@
 <template>
+    <NuxtLayout :name="default">
+
+
     <div class="page">
         <h1 class="title">404</h1>
         <h3 class="subtitle">Page not found</h3>
         <button @click="redirect" class="redirect">Go back home</button>
     </div>
+        </NuxtLayout>
 </template>
 
 <style lang="scss" scoped>
+@import "assets/scss/global.scss";
+
 .page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: calc(100vh - 4rem);
 
     .title {
         font-size: 5rem;
@@ -47,7 +53,7 @@
             display: block;
             width: 85%;
             height: 2px;
-            background: black;
+            background: #000000;
             transition: width 250ms ease-in-out;
         }
 
@@ -61,9 +67,15 @@
 </style>
 
 <script lang="ts" setup>
+import {definePageMeta} from "#imports";
+
 const router = useRouter()
 
 const redirect = () => {
     router.push('/')
 }
+
+definePageMeta({
+    layout: 'default',
+})
 </script>

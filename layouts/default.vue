@@ -4,10 +4,12 @@
 </template>
 
 <style lang="scss">
+@import "assets/scss/global.scss";
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    color: $black;
 }
 
 .page {
@@ -18,3 +20,15 @@ body {
     height: 100vh;
 }
 </style>
+
+<script lang="ts" setup>
+useHead({
+    title: "Blender Bots",
+    meta: [
+        {
+            name: "description",
+            content: "Blender Bots is a club for students to learn about robotics and programming."
+        }
+    ]
+})
+</script>
