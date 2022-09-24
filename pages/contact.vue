@@ -42,7 +42,7 @@
             width: 100%;
             margin: 0;
             padding: .25rem .5rem;
-            border-radius: 1rem 0 0 0;
+            border-radius: 1rem 1rem 0 0;
             font-size: 1.2rem;
             border: 1px solid black;
             border-bottom: none;
@@ -64,7 +64,7 @@
             padding: .25rem .75rem;
             font-size: 1.1rem;
             border: 1px solid black;
-            border-radius: 0 .5rem 0 .5rem;
+            border-radius: .5rem .5rem 0 .5rem;
         }
     }
 
